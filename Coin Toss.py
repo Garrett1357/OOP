@@ -1,4 +1,4 @@
-import CoinClass as c
+import CoinClass as c   # Name of the file, not the name of the class
 
 
 # The main function.
