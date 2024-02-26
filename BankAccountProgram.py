@@ -5,7 +5,7 @@ import BankAccountClass as bc
 def main():
     
    # Get the starting balance.
-   start_bal = float(input('Enter your starting balance: '))
+   start_bal = float(input('Enter your starting balanc1e: '))
 
    # Create a BankAccount object.
    savings = bc.BankAccount(start_bal)
@@ -21,6 +21,7 @@ def main():
 
    # Get the amount to withdraw.
    cash = float(input('How much would you like to withdraw? '))
+     
    print('I will withdraw that from your account.')
    savings.withdraw(cash)
 
