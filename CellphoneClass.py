@@ -1,17 +1,17 @@
 class Cellphone:
-    def __init__(self,ma,mn,rp):
-        self.__manufact = ma
-        self.__model = mn
-        self.__retail_price = rp
+    def __init__(self):
+        self.__manufact = 'Apple'
+        self.__model = 'iPhone 12'
+        self.__retail_price = '799.99'
 
-    def set_manufact(self,ma):
-        ma = input('What is the manufacturer? ')
+    def set_manufact(self):
+        self.__manufact = input("New Manufacturer: ")
 
-    def set_model(self,mn):
-        mn = input('What is the model? ')
+    def set_model(self):
+        self.__model = input("New Model: ")
 
-    def set_retail_price(self, rp):
-        rp = input('What is the retail price? ')   
+    def set_retail_price(self):
+        self.__retail_price = input("New Price: ")
 
     def get_manufact(self):
         return self.__manufact
